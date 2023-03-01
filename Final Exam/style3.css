@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header-contaier{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+}
+.header-contaier .search{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width:325px;
+    height: 64px;
+}
+.header-contaier .tag-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+.header-contaier .tag-box .Newuser{
+    background-color: rgba(132, 159, 255,1);
+    color: white;
+    border: 1px solid rgba(132, 159, 255, 1);
+    border-radius: 4px;
+}
+
+.container{
+    padding-top: 60px;
+    justify-content: space-between;
+    width: 100wh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container.User{
+    width: 550px;
+    height: 210px;
+    display: flex;
+}
+.container .User .user-info{
+    display: flex;
+}
